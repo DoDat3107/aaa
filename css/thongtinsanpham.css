@@ -1,0 +1,166 @@
+.khuonthongtinchitiet{
+    
+    width: 100%;
+    height: auto;
+   
+}
+.thongtinchitiet{
+    width: 80%;
+    height: auto;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid red;
+    padding-top: 80px;
+}
+
+.chitietsp {
+    display: flex;
+    justify-content: space-between;
+    padding:0 100px;
+    
+    
+    
+
+}
+.thongtinsp .tensp{
+    padding-bottom: 30px;
+}
+.cauhinh{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    
+    
+}
+.cauhinh div{
+    width: 250px;
+    height: auto;
+}
+.cauhinhchung{
+    background-color: red;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.cauhinh .chitietcauhinh div {
+    
+    padding-bottom: 100px;
+    border: 1px dotted rgba(0, 0, 0, 0.159);
+    font-size: 20px;
+    padding-left: 10px;
+    width: 290px;
+    
+}
+li{
+    list-style: none;
+}
+.thongso ul li{
+    max-width: 300px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    height: auto;
+}
+.thongso ul li a:hover button{
+    cursor: pointer;
+    color: red;
+}
+.khuyenmai{
+    border: 1px solid rgba(0, 0, 0, 0.109);
+    padding-left: 10px;
+
+}
+.thongso{
+    border: 1px solid rgba(0, 0, 0, 0.127);
+    padding-left: 0;
+    background: rgba(128, 128, 128, 0.034);
+}
+
+.thongso ul{
+    padding: 0 10px;
+    margin: 0;  
+}
+.chitietsp div img{
+    width: 350px;
+    
+}
+.hinhanhsp{
+   
+    padding:10px
+}
+
+.chitietsp .cauhinh{
+    margin-right: 100px;
+}
+.chitietsp .thongso{
+    margin-left: 100px;
+}
+/*---------------------*/
+.khuoncomment{
+    width: 100%;
+    height:auto;
+    
+}
+.comment{
+    width: 78%;
+    height: auto;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px 20px;
+    
+}
+.comment input{
+    width: 20%;
+    height: 30px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px soild #868686;
+
+}
+.comment input:focus{
+    border: 1 solid #000;
+    outline: 0;
+}
+.comment textarea{
+    width: 93%;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px soild #868686;
+}
+.comment textarea:focus{
+    border: 1 solid #000;
+    outline: 0;
+}
+.comment button{
+    border: 0;
+    padding: 10px 30px;
+    background-color: #868686;
+    font-size: 18px;
+    border-radius: 5px;
+}   
+.comment button:hover{
+    cursor: pointer;
+    background-color:#695d5d ;
+}
+.traloi{
+    height: auto;
+    width: auto;
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+.thongtinbl{
+    display: flex;
+}
+
+
+
+

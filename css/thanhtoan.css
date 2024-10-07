@@ -1,0 +1,46 @@
+.khuonthanhtoan{
+    width: 100%;
+    height: auto;
+}
+.khuonthanhtoan2{
+    width: 80%;
+    height: auto;
+   display: flex;
+ 
+    
+}
+.thongtinthanhtoan{
+    width: 50%;
+    height: auto;
+    padding-top: 70px;
+   
+}
+.showgiohang{
+    height: auto;
+    width: 50%;
+    
+    padding: 50px;
+}
+    
+.emailvasdt{
+    display: flex;
+    justify-content: space-between;
+    width: 510px;
+}
+.thongtinthanhtoan div{
+    padding: 10px;
+}
+.hainut{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.hainut button{
+    background-color: #3da9e2;
+    height: 40px;
+    
+}
+
+
+
+

@@ -1,0 +1,72 @@
+.add_danhmuc input{
+    width: 200px;
+    padding-left: 12px;
+    margin-top: 20px;
+    height: 30px;
+}
+.add_danhmuc button{
+    display: block;
+    margin-top: 10px;
+    width: 100px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    transition: all 0.3s ease;
+}
+.add_danhmuc button:hover {
+    background-color: rgba(255, 0, 0, 0.493);
+}
+
+/*************************danh sach danh muc*************/
+.danhsach_danhmuc table{
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+}
+.danhsach_danhmuc table tr th,td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+   
+
+}
+th , td{
+    width:auto;
+    
+    
+}
+/*-----------            sản phẩm                    -----*/
+.add_sanpham input ,select{
+    height: 30px;
+    width: 400px;
+    display: block;
+    margin:6px 0 12px;
+    padding-left:  10px;
+
+}
+.add_sanpham textarea{
+    display: block;
+    height: 200px;
+    width: 500px;
+    margin-bottom: 12px;
+    padding: 10px;
+}
+.add_sanpham button{
+    display: block;
+    margin-top: 10px;
+    width: 100px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    transition: all 0.3s ease;
+}
+.add_sanpham button:hover {
+    background-color: rgba(255, 0, 0, 0.493);
+}

@@ -1,0 +1,34 @@
+body{
+    background-color: rgba(128, 128, 128, 0.39);
+}
+.ketquatimkiem{
+   padding-top: 5px;
+    height: 70px;
+    width:100%;
+}
+/*---------------DAT HANG THANH CONG */
+.khuondathangthanhcong{
+    width: 100%;
+    height: auto;
+
+}
+.dathangthanhcong{
+    width: 80%;
+    padding: 20px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.dathangthanhcong div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 400px;
+    position: relative;
+}
+.nuttrangchu button{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}

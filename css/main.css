@@ -1,0 +1,564 @@
+/*-------khuôn--------*/
+
+body{
+    margin: 0 auto;
+    font-family:'Times New Roman', Times, serif   ;
+}
+a{
+    text-decoration: none;
+}
+.header1{
+    width:100%;
+    height: 120px;
+    background-color: black;
+    
+}
+.header1_menu{
+    margin-left: auto;
+    margin-right:auto;
+    width:95%;
+    height:100px; 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo{
+    padding-top: 10px;
+}
+.logo img{
+    height: 80px;
+    width: 180px;
+    
+}
+.header1_menu div a{
+    color: white;
+}
+.header1_menu .dangnhap:hover a,
+.header1_menu .dangky:hover a,
+.header1_menu .thongtincanhan:hover a{
+    color: red;
+}
+
+.dkdn{
+    
+    display:flex;
+    padding-top: 30px;
+   
+   
+   
+}
+.dkdn .dangky{
+    padding-left: 30px;
+}
+
+.timkiem{ 
+    display: flex;
+    justify-content:center;
+    padding-top: 30px;
+   
+    
+
+}
+.timkiem  form input{
+    width: 400px;
+    height: 30px;
+    border-radius: 3px;
+}  
+
+.timkiem button{
+    height: 30px;
+    border-radius: 5px;   
+}
+.timkiem button a{
+    color: black;
+    font-size: 15px;
+}
+.giohang{
+    padding-top: 15px;
+  
+   
+}
+.giohang img{
+        padding-top: 10px;
+}
+
+.notice{
+    position: absolute;
+    padding: 1px 4px;
+    background-color:red;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+.thongtincanhan{
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------menu----------------------------------------------*/
+.header__main{
+    
+}
+.main__menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+    padding: 0px 30px;
+    border:1px solid black ;
+    
+    
+    
+    
+    
+}
+.main__menu a{
+    color:#fff ;
+    font-size: 13px;
+    
+    
+}
+.main__menu  .item{
+    padding: 10px 10px;  
+    transition: all 0.3s ease;
+    z-index: 2;
+    border-left:2px solid black; 
+    border-right: 2px solid black;
+    border-radius: 4px;
+}
+.main__menu .item a{
+    font-size: large;
+    color: black;
+    
+}
+.main__menu .item:hover {
+    background-color: rgba(255, 0, 0, 0.753);
+    
+}
+/*-----------MENU CON-----------------*/
+.main__menu .item{
+    position: relative;
+
+}
+/*laptop*/
+.menu_laptop{
+    position: absolute;
+    top: 100%;
+    height: auto;
+    left: -3px;
+    width: 140px;  
+    background-color: #ddd;
+    padding: 2px;
+    display: none;
+    border: 1px solid rgba(0, 0, 0, 0.229);
+    border-radius: 2px;
+   
+}
+.menu_laptop div{ 
+    display: flex; 
+    justify-content: space-around;
+    flex-direction: column;
+    border-bottom: 1px solid red;
+    padding: 10px;
+    
+    
+}
+.main__menu .item:hover .menu_laptop{
+    display: block;  
+}  
+.menu_laptop div:hover a{
+    color: red;
+}
+/* MÁY TÍNH ĐỂ BÀN*/
+
+.menu_maytinhdeban{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width:230px;
+    background-color:#ddd;
+    padding: 2px;
+    display: none;
+    border: 1px solid rgba(0, 0, 0, 0.229);
+    border-radius: 2px;
+}
+.menu_maytinhdeban div{
+    display: flex; 
+    justify-content: space-around;
+    flex-direction: column;
+    border-bottom: 1px solid red;
+    padding: 10px 5px; 
+}
+.main__menu .item:hover .menu_maytinhdeban{
+    display: block;
+}
+.menu_maytinhdeban div:hover a{
+    color: red;
+}
+
+/* MÀN HÌNH MÁY TÍNH */
+.menu_manhinhmaytinh{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 252px;
+    background-color:#ddd;
+    padding: 2px;
+    display: none;
+    border: 1px solid rgba(0, 0, 0, 0.229);
+    border-radius: 2px;
+}
+.menu_manhinhmaytinh div{
+    display: flex; 
+    justify-content: space-around;
+    flex-direction: column;
+    border-bottom: 1px solid red;
+    padding: 10px 5px; 
+}
+.main__menu .item:hover .menu_manhinhmaytinh{
+    display: block;
+}
+.menu_manhinhmaytinh div:hover a{
+    color: red;
+}
+/*LINH KIỆN*/
+.menu_linhkien{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 155px;
+    background-color:#ddd;
+    padding: 2px;
+    display: none;
+    border: 1px solid rgba(0, 0, 0, 0.229);
+    border-radius: 2px;
+
+}
+.menu_linhkien div{
+    display: flex; 
+    justify-content: space-around;
+    flex-direction: column;
+    border-bottom: 1px solid red;
+    padding: 10px 5px; 
+}
+
+.menu_linhkien div:hover a{
+    color: red;
+}
+.main__menu .item:hover .menu_linhkien{
+    display: block;
+}
+/* PHỤ KIỆN GAME NET */
+.menu_phukien{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 243px;
+    background-color:#ddd;
+    padding: 2px;
+    display: none;
+    border: 1px solid rgba(0, 0, 0, 0.229);
+    border-radius: 2px;
+}
+.menu_phukien div{
+    display: flex; 
+    justify-content: space-around;
+    flex-direction: column;
+    border-bottom: 1px solid red;
+    padding: 10px 5px; 
+}
+.menu_phukien div:hover a{
+    color: red;
+}
+
+.main__menu .item:hover .menu_phukien{
+    display: block;
+}   
+/*-------------slide-----------*/
+.container {
+    min-height: 41vh;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+    
+}
+.slider{
+    overflow: hidden;
+    height: 400px;
+    width: 800px;
+    margin: 0 auto;
+    border: 1px soild gray;
+}
+
+.slider_img {
+    width: 500%;
+    animation:slideShow 16s infinite;
+}
+.image img{
+    float:left;
+    height:406px;
+    width:800px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    -webkit-box-reflect: below 1px -webkit-gradient(linear, right top, right bottom, form(transparent), to(rgba(255,255,255,0.3)));
+}
+
+@keyframes slideShow{
+    20%{
+        margin-left:0;
+    }
+    30%{
+        margin-left:-100%;
+    }
+    40%{
+        margin-left:-100%;
+    }
+    50%{
+        margin-left:-200%;
+    }
+    60%{
+        margin-left:-200%;
+    }
+    70%{
+        margin-left:-300%;
+    }
+    80%{
+        margin-left:-300%;
+    }
+    90%{
+        margin-left:-400%;
+    }
+    100%{
+        margin-left:-400%;
+    }
+}
+/*---------------              KHUÔN SẢN PHẨM               ---*/
+
+.khuon_sanpham{
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+/*--------------------sp pham thu 1---------------*/
+.menu_sp{
+    
+    width: 80%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+/*--------------title_pc-------------*/
+.menu_sp .title{
+    
+    height:30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #773b3b;
+    font-size: 20px;
+    padding:10px 20px;   
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.title div,
+.xemtatca{
+    color: #fff;
+}
+div .xemtatca:hover{
+    color: black;
+}
+/*-------------item_pc---------*/
+.item_sp_content  div  ins{
+    text-decoration: none;
+    font-size: 25px;
+    text-shadow: 2px 2px #fff, -2px 2px #fff, 2px -2px #fff, -2px -2px #fff, 2px 2px 7px #555;
+}
+.item_sp {
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.item_sp_content{
+    
+    width: 20%;
+    height:auto;
+    background-color:rgba(255, 255, 255, 0.953);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    
+   
+    
+}
+.item_sp .item_sp_content img{
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.text_thongtin{
+    padding-top: 10px;
+    
+    
+}
+
+.info,
+.tinhtrang{
+    justify-content: center;
+    display: flex;
+    margin-bottom:5px;
+    text-align: center; 
+    
+}
+.info a{
+    color: black;
+}
+.tinhtrang{
+    color: blue;
+    font-size: 20px;
+    background-color:rgba(255, 255, 0, 0.405);
+    
+}
+.info i{
+    color:red;
+}
+.item_sp_content:hover img{
+    transform: translateY(-10px);
+
+}
+.text_thongtin .info a{
+    font-weight:bolder;
+}
+.text_thongtin .info:hover a{
+    color: red;
+    font-weight: 50px;
+}   
+.text_thongtin div {
+    min-height:70px;
+}
+
+/*---------------*/
+.khuon_sanpham2{
+    width: 100%;
+    height: auto;
+}
+
+.gach{
+    text-decoration: line-through;
+    text-shadow: none; 
+    font-size: 20px;
+    
+
+}
+div .gach{
+    min-height:auto;
+    width: auto;
+ 
+}
+/*-------------khuónanpham3-------------*/
+.khuon_sanpham3{
+    width: 100%;
+    height: auto;
+}
+/*--------khuônsanpham4------------*/
+.khuon_sanpham4{
+    width: 100%;
+    height: auto;
+}
+/*-----------footer------*/
+footer{
+    border-top: 3px solid rgba(235, 118, 118, 0.507);
+    width: 100%;
+    height: auto;
+    background-color:rgba(128, 128, 128, 0.411);
+    
+   
+}
+.khungfooter{
+    padding:20px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right:auto;
+   
+ 
+}
+.noidungfooter{
+    display:flex;
+    justify-content: space-between;
+    
+   
+} 
+ .ndfooter .ndfooter_tieude {
+    border-bottom: 2px dotted black ;
+    font-size: 23px;
+    color: rgb(238, 14, 14); 
+}
+.ndfooter li img{
+    background-color: rgba(0, 0, 0, 0.181);
+    height: 200px;
+    width: 300px;
+    margin-right: 50px;
+}
+.ndfooter li{
+    list-style: none;
+    
+}
+.ndfooter ul,
+li,
+a{
+
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+.ndfooter ul{
+   
+    display: flex;
+    padding-left: 0;
+    flex-direction: column;
+    
+}
+.ndfooter ul li{
+    padding: 5px;
+}
+.ndfooter ul li:hover a{
+        color: red;
+}
+.hoantat:hover button{
+    cursor: pointer;
+    background-color: #3da8e27d;
+}
+.duongdan{
+    display: flex;
+    
+   
+}
+.khuonduongdan{
+    position: absolute;
+    left: 200px;
+}
+.duongdan a:hover{
+    color: red;
+}
+
+
+
+
+ 
+
+

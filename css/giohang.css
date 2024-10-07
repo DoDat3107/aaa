@@ -1,0 +1,76 @@
+.khuoncart{
+   
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+
+}
+.cart{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;  
+    padding-bottom: 30px; 
+}
+td img{
+    width: 150px;
+    height: 150px;
+   
+}
+.cart{
+    width:100%;
+   
+    text-align: center;
+    padding-top: 30px;
+
+}
+.cart table{
+    width: 80%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.cart table tr td{
+     border: 1px solid #ddd;
+     border-right: 0;
+}
+.cart table tr th {
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    border-right: 0;
+}
+.tongtien{
+    display: flex;
+    justify-content: space-around;
+}
+.thanhtoan > button{
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    background: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+    
+    
+}
+.nutthanhtoan a{
+    color: white;
+}
+
+.thanhtoan{
+    
+    padding: 40px;
+    
+
+}
+.nutthanhtoan:hover{
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.524);
+    transition: all 0.3 ease;
+}
+.nutthanhtoan:hover > a{
+    color: black;
+}
+
